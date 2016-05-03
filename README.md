@@ -22,7 +22,7 @@ Project Lead: Jack Mckenzie (also software support)
 
 - [ ] Chung Yin & Akeimo Study up on networking
 
- - [x] Hardware: Prototype Chassis
+- [x] Hardware: Prototype Chassis
 
 - [ ] Software: Get Avc moving (completed just needs to upload code to git hub
 
