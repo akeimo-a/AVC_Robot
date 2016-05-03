@@ -10,35 +10,35 @@ Hardware: Tim Mo, Rohullah Khalilullah
 Project Lead: Jack Mckenzie (also software support)
 
 # Week1 Checklist
-[x] All: complete AVC plan
+- [x] All: complete AVC plan
 
-[X] Jack: Arrange Team meating, check all have signed plan
+- [x] Jack: Arrange Team meating, check all have signed plan
 
-[x] All: Set up git hub Repository
+- [x] All: Set up git hub Repository
 
-[x] All: Create group chat/way to comunicate 
+- [x] All: Create group chat/way to comunicate 
 
 # Week2 Checklist 
 
-[] Chung Yin & Akeimo Study up on networking
+- [ ] Chung Yin & Akeimo Study up on networking
 
-[x] Hardware: Prototype Chassis
+ - [x] Hardware: Prototype Chassis
 
-[] Software: Get Avc moving (completed just needs to upload code to git hub
+- [ ] Software: Get Avc moving (completed just needs to upload code to git hub
 
 # Week 3 Checklist 
-[x] Hardware: Finish Chassis and motors
+- [x] Hardware: Finish Chassis and motors
 
-[] Software: Start code for the gate and movement along the white line 
+- [ ] Software: Start code for the gate and movement along the white line 
 
-[x] Jack: Check Team progress and make,edit check list
+- [x] Jack: Check Team progress and make,edit check list
 
-[] Chung Yin & Akeimo Study up on networking (from last Week)
+- [ ] Chung Yin & Akeimo Study up on networking (from last Week)
 
 # Week 4 Checklist
 
-[x] Hardware: Find out were and attach sensorsto the right place 
+- [x] Hardware: Find out were and attach sensorsto the right place 
 
-[] Software: Finish movement folwing the white line 
+- [ ] Software: Finish movement folwing the white line 
 
-[] Jack: figure out goals for next 3 weeks
+- [ ] Jack: figure out goals for next 3 weeks
