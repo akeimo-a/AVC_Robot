@@ -7,7 +7,7 @@ Software: Chung Yin Hsu, Akeimo Apineru, Cheng Yang Ni
 
 Hardware: Tim Mo, Rohullah Khalilullah
 
-Project Lead: Jack Mckenzie
+Project Lead: Jack Mckenzie (also software support)
 
 # Week1 Checklist
 [x] All: complete AVC plan
@@ -34,3 +34,11 @@ Project Lead: Jack Mckenzie
 [x] Jack: Check Team progress and make,edit check list
 
 [] Chung Yin & Akeimo Study up on networking (from last Week)
+
+# Week 4 Checklist
+
+[x] Hardware: Find out were and attach sensorsto the right place 
+
+[] Software: Finish movement folwing the white line 
+
+[] Jack: figure out goals for next 3 weeks
