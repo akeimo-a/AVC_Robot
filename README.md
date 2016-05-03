@@ -8,7 +8,7 @@ Hardware: Tim Mo, Rohullah Khalilullah
 Project Lead: Jack Mckenzie
 
 # Week1 Checklist
-[x] All: complete AVC plan
+[x] All: complete AVC plan \n
 [X] Jack: Arrange Team meating, check all have signed plan
 [x] All: Set up git hub Repository
 [x] All: Create group chat/way to comunicate 
