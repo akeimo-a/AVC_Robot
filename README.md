@@ -20,7 +20,7 @@ Project Lead: Jack Mckenzie (also software support)
 
 # Week2 Checklist 
 
-- [ ] Chung Yin & Akeimo Study up on networking
+- [x] Chung Yin & Akeimo Study up on networking
 
 - [x] Hardware: Prototype Chassis
 
@@ -29,11 +29,11 @@ Project Lead: Jack Mckenzie (also software support)
 # Week 3 Checklist 
 - [x] Hardware: Finish Chassis and motors
 
-- [ ] Software: Start code for the gate and movement along the white line 
+- [x] Software: Start code for the gate and movement along the white line 
 
 - [x] Jack: Check Team progress and make,edit check list
 
-- [ ] Chung Yin & Akeimo Study up on networking (from last Week)
+- [x] Chung Yin & Akeimo Study up on networking (from last Week)
 
 # Week 4 Checklist
 
