@@ -42,3 +42,24 @@ Project Lead: Jack Mckenzie (also software support)
 - [ ] Software: Finish movement folwing the white line 
 
 - [ ] Jack: figure out goals for next 3 weeks
+- [ ] Everybody: finish report (Due 12Pm Monday)
+
+# Week 5 Checklist 
+
+- [ ] Software: Implement the Start of PID
+- [ ] Akeimo Apineru: Finish Gate Networking 
+- [ ] Hardware: Complete camera mount
+
+# Week 6 Checklist
+
+- [ ] Tim Mo: Create and check a ticklist for hardware (End of hardware)
+- [ ] Software: Start the code on getting the avc past the right angle turns E.G get the robat around to B-
+- [ ]
+- [ ]
+
+# Week 7 Checklist 
+
+- [ ]
+- [ ]
+- [ ]
+- [ ]
