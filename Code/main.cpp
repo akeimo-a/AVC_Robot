@@ -52,8 +52,6 @@ int main(){
     send_to_server(message); //NOTE: You must run se2 on the gate pi before running this code.
     
     int i;
-    
-    int i;
     init(0);
     // connect camera to the screen
     open_screen_stream();
