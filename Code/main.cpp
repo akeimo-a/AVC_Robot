@@ -44,7 +44,15 @@ int speed2 =0;
 int stop = 0;
 int speedIndex = 0;
 char p [320];
-int main(){
+int main(){    
+    connect_to_server("130.195.6.196",1024);//connecting to the gate
+    send_to_server("Please");//Sending the gate a message, asking for the password
+    char message[24];
+    receive_from_server(message); //setting the variable 'message' as the message
+    send_to_server(message); //NOTE: You must run se2 on the gate pi before running this code.
+    
+    int i;
+    
     int i;
     init(0);
     // connect camera to the screen
