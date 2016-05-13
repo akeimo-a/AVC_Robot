@@ -47,7 +47,7 @@ Project Lead: Jack Mckenzie (also software support)
 # Week 5 Checklist 
 
 - [ ] Software: Implement the Start of PID
-- [ ] Akeimo Apineru: Finish Gate Networking 
+- [x] Akeimo Apineru: Finish Gate Networking 
 - [ ] Hardware: Complete camera mount
 
 # Week 6 Checklist
