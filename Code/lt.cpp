@@ -36,7 +36,7 @@ extern "C" int receive_from_server(char message[24]);
 
 //motor 1 is left
 //motor 2 is right
-
+//declaring variables that will be used.
 int v_left = 0;
 int v_right = 0;
 int full_speed1 = 100;
@@ -61,7 +61,7 @@ int main()
 {
     int i;
     init(0);
-    // connect camera to the screen
+    // connect camera to the screen, displaying the camera on the screen
     open_screen_stream();
     // set all digital outputs to +5V
     for (i = 0; i < 8; i++)
@@ -71,9 +71,10 @@ int main()
       write_digital(i,1);
     }
 
-    while(1)
+    while(1) //while(1) means an infinite loop
     {
-       // take camera shot
+       // take camera shot, which will then be processed for
+       // error correction
        take_picture();
 
        // draw some line
@@ -82,18 +83,24 @@ int main()
        set_pixel(102, 55 ,255,0,0);
        set_pixel(103, 55 ,255,0,0);
        
-       // display picture
+       // display the most recent picture on the screen
        update_screen();
        
-       // get the top middle pixel
+       
+       
+       //the if statements below are all for reducing noise, and manipulating variables based on
+       //the picture the camera has taken.
+       
+       
+       // getting the top middle pixel
        top_value = get_pixel(160, 120, 3);
-       if(top_value < 127){
+       if(top_value < 127){  //this 'if' statement is used to reduce noise. This 'if' is repeated throughout the code.
 		top_index = 0;
        } else {
 		top_index = 1;
        }
 
-       //get the bottom middle pixel
+       //getting the bottom middle pixel
        bottom_value = get_pixel(320, 120, 3);
        if(bottom_value < 127){
 		bottom_index = 0;
@@ -101,7 +108,7 @@ int main()
 		bottom_index = 1;
        }
 
-       // get the middle image of picture
+       // getting the middle image of picture
        for(int i=0, i<320, i++){
 		mid_value = get_pixel(i, 120, 3);
 		if(mid_value < 127){
@@ -178,22 +185,33 @@ int main()
 		right_sum = right_sum + right_index;
        }
 
-       // control the motors speed and direction
+       // control the motors speed and direction, depending on what we got from the camera, 
+       // and what the variables were changed to. 
        if(top_index =1 && bottom_index = 1 && left_sum = 0 && right_sum = 0){
 		set_motor(1, full_speed1);
 		set_motor(2, full_speed2); //go straight
+		
+		
        } else if(top_index =1 && bottom_index = 1 && left_sum > 0 && right_sum > 0){
 		set_motor(1, full_speed1);
 		set_motor(2, full_speed2); //go straight
+		
+		
        } else if(top_index =1 && bottom_index = 1 && left_sum > 0){
 		set_motor(1, full_speed1);
 		set_motor(2, full_speed2); //go straight
+		
+		
        } else if(top_index =0 && bottom_index = 1 && left_sum > 0 && right_sum > 0){
 		set_motor(1, full_speed1);
 		set_motor(2, full_speed2*2); //turn left
+		
+		
        } else if(left_sum > 0){
 		set_motor(1, full_speed1);
 		set_motor(2, full_speed2*2); //turn left
+		
+		
        } else if(right_sum > 0){
 		set_motor(1, full_speed1*2);
 		set_motor(2, full_speed2); //turn left
@@ -208,7 +226,7 @@ int main()
        // Sleep(5,0);
        
        
-       for (i = 0 ; i < 8; i++){
+       for (i = 0 ; i < 8; i++){ //Using the IR sensors, only printing out what they sense, not using it in any way (yet)
         	int av = read_analog(i);
         	printf("ai=%d av=%d\n",i,av);
        }
@@ -216,7 +234,7 @@ int main()
 
    // terminate hardware
    close_screen_stream();
-   set_motor(1,0);
+   set_motor(1,0); //Stopping both of the motors, setting Voltage to 0.
    set_motor(2,0);
   
    return 0;
