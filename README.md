@@ -3,7 +3,7 @@ AVC Challenge
 [] = not done [x] = complete
 
 People:
-Software: Chung Yin Hsu, Akeimo Apineru, Cheng Yang Ni 
+Software:Akeimo Apineru, Cheng Yang Ni 
 
 Hardware: Tim Mo, Rohullah Khalilullah
 
@@ -24,7 +24,7 @@ Project Lead: Jack Mckenzie (also software support)
 
 - [x] Hardware: Prototype Chassis
 
-- [ ] Software: Get Avc moving (completed just needs to upload code to git hub
+- [x] Software: Get Avc moving (completed just needs to upload code to git hub
 
 # Week 3 Checklist 
 - [x] Hardware: Finish Chassis and motors
@@ -39,27 +39,28 @@ Project Lead: Jack Mckenzie (also software support)
 
 - [x] Hardware: Find out were and attach sensorsto the right place 
 
-- [ ] Software: Finish movement folwing the white line 
+- [x] Software: Finish movement folwing the white line 
 
-- [ ] Jack: figure out goals for next 3 weeks
-- [ ] Everybody: finish report (Due 12Pm Monday)
+- [x] Jack: figure out goals for next 3 weeks
+- [x] Everybody: finish report (Due 12Pm Monday)
 
 # Week 5 Checklist 
 
 - [ ] Software: Implement the Start of PID
 - [x] Akeimo Apineru: Finish Gate Networking 
-- [ ] Hardware: Complete camera mount
+- [x] Hardware: Complete camera mount
 
 # Week 6 Checklist
 
 - [ ] Tim Mo: Create and check a ticklist for hardware (End of hardware)
 - [ ] Software: Start the code on getting the avc past the right angle turns E.G get the robat around to B-
-- [ ]
-- [ ]
+- [ ] Software: Reach B-!!
+- [ ] Rohullah: Battrie Mount Finished.
+- [ ] Everybody: Brain storm ideas for exterior
 
 # Week 7 Checklist 
 
-- [ ]
-- [ ]
+Final Exam for 101 so less work will be done this week
+- [ ] At this stage dont know: Create and attach exterior.
 - [ ]
 - [ ]
