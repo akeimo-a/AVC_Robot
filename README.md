@@ -55,7 +55,7 @@ Project Lead: Jack Mckenzie (also software support)
 - [ ] Tim Mo: Create and check a ticklist for hardware (End of hardware)
 - [ ] Software: Start the code on getting the avc past the right angle turns E.G get the robat around to B-
 - [ ] Software: Reach B-!!
-- [ ] Rohullah: Battrie Mount Finished.
+- [x] Rohullah: Battrie Mount Finished.
 - [ ] Everybody: Brain storm ideas for exterior
 
 # Week 7 Checklist 
