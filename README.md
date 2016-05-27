@@ -46,7 +46,7 @@ Project Lead: Jack Mckenzie (also software support)
 
 # Week 5 Checklist 
 
-- [ ] Software: Implement the Start of PID
+- [x] Software: Implement the Start of PID
 - [x] Akeimo Apineru: Finish Gate Networking 
 - [x] Hardware: Complete camera mount
 
@@ -54,7 +54,7 @@ Project Lead: Jack Mckenzie (also software support)
 
 - [ ] Tim Mo: Create and check a ticklist for hardware (End of hardware)
 - [ ] Software: Start the code on getting the avc past the right angle turns E.G get the robat around to B-
-- [ ] Software: Reach B-!!
+- [x] Software: Reach B-!!
 - [x] Rohullah: Battrie Mount Finished.
 - [ ] Everybody: Brain storm ideas for exterior
 
