@@ -52,15 +52,10 @@ Project Lead: Jack Mckenzie (also software support)
 
 # Week 6 Checklist
 
-- [ ] Tim Mo: Create and check a ticklist for hardware (End of hardware)
+- [x] Tim Mo: Create and check a ticklist for hardware (End of hardware)
 - [ ] Software: Start the code on getting the avc past the right angle turns E.G get the robat around to B-
 - [x] Software: Reach B-!!
 - [x] Rohullah: Battrie Mount Finished.
-- [ ] Everybody: Brain storm ideas for exterior
+- [x] Everybody: Brain storm ideas for exterior
+- [x] finish implementing P of Pid
 
-# Week 7 Checklist 
-
-Final Exam for 101 so less work will be done this week
-- [ ] At this stage dont know: Create and attach exterior.
-- [ ]
-- [ ]
